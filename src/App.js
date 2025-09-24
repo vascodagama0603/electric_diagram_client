@@ -226,11 +226,11 @@ const initialPictures = [
       "/"+CIRCUIT_3P_BREAKER+".svg"
   },
 ];
-
+const SERVER = process.env.SERVER_ADDRESS
 function App() {
-	const svg_url = "http://127.0.0.1:8000/svg/";
-	const dxf_url = "http://127.0.0.1:8000/dxf/";
-	const pdf_url = "http://127.0.0.1:8000/pdf/";
+	const svg_url = SERVER+"/svg/";
+	const dxf_url = SERVER+"/dxf/";
+	const pdf_url = SERVER+"/pdf/";
 
   const [pictures, setPictures] = useState(initialPictures);
   const [hoveredPictureId, setHoveredPictureId] = useState(null);

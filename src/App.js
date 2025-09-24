@@ -226,7 +226,8 @@ const initialPictures = [
       "/"+CIRCUIT_3P_BREAKER+".svg"
   },
 ];
-const SERVER = process.env.SERVER_ADDRESS
+//const SERVER = process.env.SERVER_ADDRESS
+const SERVER = "https://electric-diagram-server.onrender.com"
 function App() {
 	const svg_url = SERVER+"/svg/";
 	const dxf_url = SERVER+"/dxf/";

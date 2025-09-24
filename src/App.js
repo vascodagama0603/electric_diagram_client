@@ -37,7 +37,7 @@ const initialPictures = [
     caption:"a接点",
     subcaption:"JIS " + MAKE_CONTACT,
     src:
-      "/"+MAKE_CONTACT+".svg"
+      MAKE_CONTACT+".svg"
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_CONTACT,
     src:
-      "/"+BREAK_CONTACT+".svg"
+      BREAK_CONTACT+".svg"
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const initialPictures = [
     caption:"a接点(ディレイ)",
     subcaption:"JIS " + MAKE_CONTACT_DELAYED_CLOSING,
     src:
-      "/"+MAKE_CONTACT_DELAYED_CLOSING+".svg"
+      MAKE_CONTACT_DELAYED_CLOSING+".svg"
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_CONTACT_DELAYED_OPENING,
     src:
-      "/"+MAKE_CONTACT_DELAYED_OPENING+".svg"
+      MAKE_CONTACT_DELAYED_OPENING+".svg"
   },
   {
     id: 5,
@@ -73,7 +73,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_CONTACT_DELAYED_OPENING,
     src:
-      "/"+BREAK_CONTACT_DELAYED_OPENING+".svg"
+      BREAK_CONTACT_DELAYED_OPENING+".svg"
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_CONTACT_DELAYED_CLOSING,
     src:
-      "/"+BREAK_CONTACT_DELAYED_CLOSING+".svg"
+      BREAK_CONTACT_DELAYED_CLOSING+".svg"
   },
   {
     id: 7,
@@ -91,7 +91,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_CONTACT_DELAYED,
     src:
-      "/"+MAKE_CONTACT_DELAYED+".svg"
+      MAKE_CONTACT_DELAYED+".svg"
   },
   {
     id: 8,
@@ -100,7 +100,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_CONTACT_DELAYED,
     src:
-      "/"+BREAK_CONTACT_DELAYED+".svg"
+      BREAK_CONTACT_DELAYED+".svg"
   },
   {
     id: 9,
@@ -109,13 +109,13 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_MANUAL_CONTACT,
     src:
-      "/"+MAKE_MANUAL_CONTACT+".svg"
+      MAKE_MANUAL_CONTACT+".svg"
   },
   // {
   //   id: 10,
   //   text:BREAK_MANUAL_CONTACT,
   //   src:
-  //     "/"+BREAK_MANUAL_CONTACT+".svg"
+  //     BREAK_MANUAL_CONTACT+".svg"
   // },
   {
     id: 11,
@@ -124,7 +124,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_PUSH_BUTTON,
     src:
-      "/"+MAKE_PUSH_BUTTON+".svg"
+      MAKE_PUSH_BUTTON+".svg"
   },
   {
     id: 12,
@@ -133,7 +133,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_PUSH_BUTTON,
     src:
-      "/"+BREAK_PUSH_BUTTON+".svg"
+      BREAK_PUSH_BUTTON+".svg"
   },
   {
     id: 13,
@@ -142,7 +142,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_PULL_BUTTON,
     src:
-      "/"+MAKE_PULL_BUTTON+".svg"
+      MAKE_PULL_BUTTON+".svg"
   },
   {
     id: 14,
@@ -151,7 +151,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_TWIST_BUTTON,
     src:
-      "/"+MAKE_TWIST_BUTTON+".svg"
+      MAKE_TWIST_BUTTON+".svg"
   },
   {
     id: 15,
@@ -160,7 +160,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_EMERGENCY_STOP,
     src:
-      "/"+BREAK_EMERGENCY_STOP+".svg"
+      BREAK_EMERGENCY_STOP+".svg"
   },
   {
     id: 16,
@@ -169,7 +169,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_LIMIT,
     src:
-      "/"+MAKE_LIMIT+".svg"
+      MAKE_LIMIT+".svg"
   },
   {
     id: 17,
@@ -178,7 +178,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_LIMIT,
     src:
-      "/"+BREAK_LIMIT+".svg"
+      BREAK_LIMIT+".svg"
   },
   {
     id: 18,
@@ -187,7 +187,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + MAKE_CONTACTOR,
     src:
-      "/"+MAKE_CONTACTOR+".svg"
+      MAKE_CONTACTOR+".svg"
   },
   {
     id: 19,
@@ -196,7 +196,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + BREAK_CONTACTOR,
     src:
-      "/"+BREAK_CONTACTOR+".svg"
+      BREAK_CONTACTOR+".svg"
   },
   {
     id: 20,
@@ -205,7 +205,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + CIRCUIT_BREAKER,
     src:
-      "/"+CIRCUIT_BREAKER+".svg"
+      CIRCUIT_BREAKER+".svg"
   },
   {
     id: 21,
@@ -214,7 +214,7 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + CIRCUIT_2P_BREAKER,
     src:
-      "/"+CIRCUIT_2P_BREAKER+".svg"
+      CIRCUIT_2P_BREAKER+".svg"
   },
   {
     id: 22,
@@ -223,9 +223,12 @@ const initialPictures = [
     caption:"b接点",
     subcaption:"JIS " + CIRCUIT_3P_BREAKER,
     src:
-      "/"+CIRCUIT_3P_BREAKER+".svg"
+      CIRCUIT_3P_BREAKER+".svg"
   },
 ];
+
+const base = process.env.NODE_ENV === 'production' ? '/electric_diagram_client/' : process.env.PUBLIC_URL+'/';
+
 //const SERVER = process.env.SERVER_ADDRESS
 const SERVER = "https://electric-diagram-server.onrender.com"
 function App() {
@@ -319,7 +322,8 @@ function App() {
               setOnHover(false);
             }}
           >
-            <StyledImage src={picture.src} />
+            <StyledImage src={base + picture.src} />
+            {console.log(base + picture.src)}
             {isHoveredOnPicture(picture.id) && (
               <StyledOnImageButton
               >

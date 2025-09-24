@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/electric_diagram_client/static/css/main.e6c13ad2.css",
-    "main.js": "/electric_diagram_client/static/js/main.0917531c.js",
+    "main.js": "/electric_diagram_client/static/js/main.d944a9dc.js",
     "static/js/453.d7602641.chunk.js": "/electric_diagram_client/static/js/453.d7602641.chunk.js",
     "index.html": "/electric_diagram_client/index.html",
     "main.e6c13ad2.css.map": "/electric_diagram_client/static/css/main.e6c13ad2.css.map",
-    "main.0917531c.js.map": "/electric_diagram_client/static/js/main.0917531c.js.map",
+    "main.d944a9dc.js.map": "/electric_diagram_client/static/js/main.d944a9dc.js.map",
     "453.d7602641.chunk.js.map": "/electric_diagram_client/static/js/453.d7602641.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0917531c.js"
+    "static/js/main.d944a9dc.js"
   ]
 }
